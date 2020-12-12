@@ -8,7 +8,7 @@
             const result = await fetch('https://pomber.github.io/covid19/timeseries.json');
             return await result.json();
         }catch(err){
-            alert('Something went wrong try again later');
+            alert('Щось пішло не так, спробуйте пізніше');
             isFetchingFailed = true;
         }
     }
