@@ -1,0 +1,122 @@
+<!--    
+
+    I'll fix the scrolling issue soon.
+
+    
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVID-19 Глобальні дані</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,700i,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="loader">
+        <div class="loading-bar">
+            <i class="material-icons">
+                replay
+                </i>
+               
+        </div>
+        
+        <h1 class="code-title"> Збір даних </h1>
+
+    </div> 
+    
+
+    <main class="main">
+
+        <h1 class="code-title">COVID-19 Глобальні дані</h1>
+
+        <div class="search-box">
+            <input id="search-textbox" class="search-text" type="text" placeholder="Введіть назву країни">
+            <div class="search-icon">
+                <i class="material-icons">
+                    search
+                    </i>
+            </div>
+        </div>
+
+         <div class="country" id="GlobalData">
+        
+         </div>
+
+    </main>
+
+
+    <div class="section-country-wise">
+
+    
+            <div class="previou-btn">
+                <i class="material-icons">
+                    reply
+                    </i>
+            </div>
+    
+
+
+        <h1 class="code-title--sec">
+                    <span class="code-title--sec--1">INDIA</span>
+                    <span class="code-title--sec--2">Усі проаналізовані дані</span>
+        </h1>
+
+        <div class="country__item country__item--innerpage" id="innerPageToatalAlys">
+            <div class="country__item__data">
+                <div class="country__item__data__item">
+                    <h1 class="country__text-1" id="innerPageToatalAlys--confirm">20</h1>
+                    <h1 class="country__text-1">Підтверджено</h1>
+                </div>
+                <div class="country__item__data__item">
+                    <h1 class="country__text-1" id="innerPageToatalAlys--deaths">20</h1>
+                    <h1 class="country__text-1">Смертей</h1>
+                </div>
+                <div class="country__item__data__item">
+                    <h1 class="country__text-1" id="innerPageToatalAlys--recover">20</h1>
+                    <h1 class="country__text-1">Одужавших</h1>
+                </div>
+            </div>
+        </div> 
+
+
+        
+      
+            
+        <div class="specfic-List">   
+
+            <div class="table-view" id="table">
+
+                <div class="specfic-List__grid">
+                    <div class="specfic-List__item">Дата</div>
+                    <div class="specfic-List__item">Підтверджено</div>
+                    <div class="specfic-List__item">Смертей</div>
+                    <div class="specfic-List__item">Одужавших</div>
+                </div>
+
+
+                <div class="specfic-List__grid">
+                    <div class="specfic-List__item">Дата</div>
+                    <div class="specfic-List__item">Підтверджено</div>
+                    <div class="specfic-List__item">Смертей</div>
+                    <div class="specfic-List__item">Одужавших</div>
+                </div>
+        
+            </div>
+            
+        </div>
+
+    </div>
+
+
+
+
+
+    <script src="script.js"></script> 
+</body>
+</html>
